@@ -1,0 +1,34 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT fir_trigger
+DESIGN fir_trigger
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s200
+DEVICETIME 0
+DEVPKG pq208
+DEVPKGTIME 0
+DEVSPEED -5
+DEVSPEEDTIME 1085001927
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Modelsim
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL VHDL
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE myBigSRL.vhd
+SOURCE my_package.vhd
+SOURCE add_signed.vhd
+SOURCE trigdb.vhd
+SOURCE fir_trigger.vhd
+SOURCE sub.vhd
+SOURCE mySRL.vhd
+STIMULUS tb_firtrigger.vhd
+DEPASSOC fir_trigger trigger_constraints.ucf
+[Normal]
+xilxMapReportDetail=xstvhd, spartan2, Implementation.t_placeAndRouteDes, 1085003063, True
+_SynthOptEffort=xstvhd, spartan2, Schematic.t_synthesize, 1085003040, High
+[STRATEGY-LIST]
+Normal=True
